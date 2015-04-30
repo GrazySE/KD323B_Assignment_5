@@ -26,9 +26,16 @@ public class ApiResponse {
     @SerializedName("images")
     public Image image;
 
-    @SerializedName("overview")
-    public String overview;
+    @SerializedName("rating")
+    public String rating;
+
+    @SerializedName("runtime")
+    public String runtime;
+
+    @SerializedName("votes")
+    public int likes;
 
     @SerializedName("tagline")
     public String tagline;
+
 }

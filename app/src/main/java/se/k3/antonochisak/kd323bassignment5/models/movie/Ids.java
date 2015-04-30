@@ -13,6 +13,13 @@ public class Ids {
     @SerializedName("slug")
     public String slug;
 
+    @SerializedName("imdb")
+    public String imdb;
+
+    public String getImdb() {
+        return imdb;
+    }
+
     public String getSlug() {
         return slug;
     }
